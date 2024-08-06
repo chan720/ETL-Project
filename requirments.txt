@@ -1,0 +1,2 @@
+Python3 with pandas and sqlalchemy library installed.
+postgresql database.

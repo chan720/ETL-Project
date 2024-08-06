@@ -1,0 +1,22 @@
+CREATE TABLE finance (
+    id SERIAL PRIMARY KEY,
+    is_paid BOOLEAN,
+    num_subscribers INT,
+    avg_rating NUMERIC,
+    avg_recent_rating NUMERIC,
+    rating NUMERIC,
+    reviews INT,
+    wishlisted INT,
+    published_lectures INT,
+    published_PT INT,
+    discount_amount NUMERIC,
+    discount_currency VARCHAR(10),
+    price_amount NUMERIC,
+    price_Currency VARCHAR(10),
+    Title TEXT,
+    Description TEXT,
+    Date_created DATE,
+    Time_created TIME,
+    Date_published DATE,
+    Time_published TIME
+);
